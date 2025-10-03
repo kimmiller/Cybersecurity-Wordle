@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cybersecurity Wordle Game</title>
+    <style>
+        body {
+            background-color: white;
+            color: #c5050c; /* UW–Madison red */
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #c5050c;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        .container {
+            margin: 2em auto;
+            max-width: 800px;
+        }
+        .instructions {
+            background-color: #f0f0f0;
+            padding: 1em;
+            border-radius: 8px;
+        }
+        .color-box {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        .green { background-color: green; }
+        .yellow { background-color: gold; }
+        .gray { background-color: lightgray; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cybersecurity Awareness Month Wordle Game</h1>
+    </header>
+    <div class="container">
+        <div class="instructions">
+            <h2>How to Play</h2>
+            <p>Guess the cybersecurity-themed word of the day. You have six tries. After each guess, the color of the tiles will change to show how close your guess was to the word.</p>
+            <ul>
+                <li><span class="color-box green"></span> Green: Correct letter in the correct position</li>
+                <li><span class="color-box yellow"></span> Yellow: Correct letter in the wrong position</li>
+                <li><span class="color-box gray"></span> Gray: Letter not in the word</li>
+            </ul>
+            <p>Each word comes with a clue and an educational tip to help you learn more about cybersecurity.</p>
+        </div>
+    </div>
+    <footer>
+        Cybersecurity Awareness Month 2025 – UW–Madison
+    </footer>
+</body>
+</html>
